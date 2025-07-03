@@ -5,7 +5,7 @@
 """
 Data Validation dashboard for the **Data-Driven Sailing** system
 
-• Loads three GPS logs (DDS BoatTracker, Smartphone, Vakaros)  
+• Loads three GNSS logs (DDS BoatTracker, Smartphone, Vakaros)  
 • Lets you pick a 5-minute-step time window & an outlier cutoff  
 • Shows:
     – Auto-zoom dark map  
@@ -199,7 +199,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.title("DataDrivenSailing — GPS Validation")
+st.title("DataDrivenSailing — GNSS Validation")
 
 left, right = st.columns([2, 1], gap="large")
 
